@@ -1,0 +1,87 @@
+#behavior
+
+set linenumbers
+
+#set mouse
+
+set smooth
+
+set softwrap
+
+set tabsize 4
+
+set autoindent
+
+set afterends
+
+set boldtext
+
+set brackets ""')>]}`"
+
+set constantshow
+
+set emptyline
+
+set breaklonglines
+
+#set guidestripe 90
+
+set historylog
+
+set nohelp
+
+set positionlog
+
+set softwrap
+
+set suspend
+
+set wordchars "$"
+
+set zap
+
+set multibuffer
+
+#COLORS
+
+set titlecolor white,blue
+
+set stripecolor black,white
+
+set selectedcolor white,blue
+
+#SYNTAX
+
+
+#KEYBOARD
+bind ^q exit main
+
+bind ^h replace all
+
+bind ^f whereis all
+
+bind ^b findprevious all
+
+bind ^n findnext all
+
+bind ^x cut all
+
+bind ^c copy all
+
+bind ^v paste all
+
+bind ^l linter all
+
+bind ^g gotoline all
+
+bind ^z undo all
+
+bind ^y redo all
+
+bind ^Space nextbuf all
+
+bind ^q cancel yesno
+
+bind ^W exit all
+#open new buffer
+bind ^p insert all
